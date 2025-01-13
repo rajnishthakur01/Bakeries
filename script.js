@@ -32,8 +32,3 @@ if(activeStatus.getAttribute("aria-current") === "true"){
 }
 
 
-
-
-
-
-

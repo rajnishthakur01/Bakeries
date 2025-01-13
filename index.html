@@ -1,34 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bakery Name</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-<body>
-    <header class="fix bt-shadow">
-      <nav class="navbar bg-primary p-1 " data-bs-theme="dark">
-        <div class="flex nav-main-menu " style="width: 100%; height: 100%;">
-            <div class="nav-item"><img src="/images/Creation (1).png" alt="Campany logo" style="width: 100px; box-shadow: 0px 2px 4px grey; position: relative; top: 25px;"></div>
-            <div class="nav-item">
-                <div class="menu-item">
-                    <ul class="nav-menu ul-tag flex">
-                        <a href="#" style="text-decoration: none;"><li class="nav-menu-item active" id="activeStatus" aria-current="true">Home</li></a>
-                        <a href="#" style="text-decoration: none;"><li class="nav-menu-item ">About Us</li></a>
-                        <a href="#" style="text-decoration: none;"><li class="nav-menu-item ">Services</li></a>
-                        <a href="#" style="text-decoration: none;"><li class="nav-menu-item ">Memories</li></a>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
-      </nav>
-    </header>
 
-    <h1></h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakery Name</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Text_Animation/anim-style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Here to start Header and Nav bar Section -->
+  <header class="fix bt-shadow">
+    <nav class="navbar bg-primary p-1 " data-bs-theme="dark">
+      <div class="flex nav-main-menu " style="width: 100%; height: 100%;">
+        <div class="nav-item"><img src="images/Creation _1.png" alt="Campany logo"
+            style="width: 100px; box-shadow: 0px 2px 4px grey; position: relative; top: 25px;"></div>
+        <div class="nav-item">
+          <div class="menu-item">
+            <ul class="nav-menu ul-tag flex">
+              <a href="#" style="text-decoration: none;">
+                <li class="nav-menu-item active" id="activeStatus" aria-current="true">Home</li>
+              </a>
+              <a href="#" style="text-decoration: none;">
+                <li class="nav-menu-item ">About Us</li>
+              </a>
+              <a href="#" style="text-decoration: none;">
+                <li class="nav-menu-item ">Services</li>
+              </a>
+              <a href="#" style="text-decoration: none;">
+                <li class="nav-menu-item ">Memories</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <!-- Here to start Hero Section -->
+
+  <div class="main-section">
+  </div>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="5000"
+    data-bs-pause="false">
+    <div class="text-container">
+      <p id="typing-text"></p>
+    </div>
+    <div class="carousel-inner" style="position: absolute; top: 0;">
+        <div class="dark-theme"><img src="images/dark_theme.jpeg" style="width: 100%; position: absolute; top: 0; opacity: 0.7; z-index: 10;" alt=""></div>
+
+      <div class="carousel-item active">
+        <video src="videos/5.mp4" class="d-block w-100" style="opacity: 0.6;" alt="bakers permotion videos" autoplay muted>
+          
+
+      </div>
+       <div class="carousel-item">
+        <div class="dark-theme"><img src="images/dark_theme.jpeg" style="width: 100%; position: absolute; top: 0; opacity: 0.6; z-index: 10;" alt=""></div>
+
+                <video src="videos/4.mp4" class="d-block w-100"  alt="bakers permotion videos" autoplay muted >
+
+              </div>
+              <div class="carousel-item">
+        <div class="dark-theme"><img src="images/dark_theme.jpeg" style="width: 100%; position: absolute; top: 0; opacity: 0.6; z-index: 10;" alt=""></div>
+
+                <video src="videos/2.mp4" class="d-block w-100"  alt="bakers permotion videos" autoplay muted >
+              </div>
+              <div class="carousel-item">
+        <div class="dark-theme"><img src="images/dark_theme.jpeg" style="width: 100%; position: absolute; top: 0; opacity: 0.6; z-index: 10;" alt=""></div>
+
+                <video src="videos/3.mp4" class="d-block w-100" alt="bakers permotion videos" autoplay muted >
+                
+              </div>
+              <div class="carousel-item">
+        <div class="dark-theme"><img src="images/dark_theme.jpeg" style="width: 100%; position: absolute; top: 0; opacity: 0.6; z-index: 10;" alt=""></div>
+
+                <video src="videos/1.mp4" class="d-block w-100" alt="bakers permotion videos" autoplay muted >
+
+              </div>
+    </div>
+  </div>
+
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="script.js"></script>
+<script src="Text_Animation/animScript.js"></script>
+
 </html>

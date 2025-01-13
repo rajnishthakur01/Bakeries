@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jersey+15&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jersey+15&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&family=Vast+Shadow&display=swap');
+
 
 *{
     margin: 0;
@@ -6,14 +11,14 @@
     box-sizing: border-box;
 }
 
-h1{
-    color: orange;
-    font-size: 50px;
+body{
+    text-align: center;
 }
 
 .fix{
     position: sticky;
     top: 0;
+    z-index: 1000 !important;
 
 }
 .bt-shadow{
@@ -61,3 +66,23 @@ h1{
 .remove-active-color{
     color: #fff;
 }
+
+
+.main-section{
+    width: 100%;
+    height: inherit;
+    margin-top: 4rem;
+    padding: 40px 0;
+    background: #c7c6ca5a;
+}
+
+.carousel-item{
+    height: 650px;
+    opacity: 0;
+}
+
+/* .dark-theme{
+    width: 100px;
+} */
+
+

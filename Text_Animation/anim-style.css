@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jersey+15&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jersey+15&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&family=Vast+Shadow&display=swap');
+
+
+
+        /* Text Container */
+
+.text-container {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    position: relative;
+    z-index: 20;
+    top: 3em;
+}
+
+
+
+/* Gradient Text Effects */
+.line-1 {
+    font-size: 3em;
+    line-height: 1;
+    font-family: "DM Serif Text", serif;
+    background: linear-gradient(90deg,#0c99b5, #ff132e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line-2 {
+    font-size: 3em;
+    line-height: 2;
+    font-family: "DM Serif Text", serif;
+     background: linear-gradient(90deg, #b09b00, #1d02a1, #0626fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line-3 {
+    font-size: 1.7em;
+    font-family: "Lobster", serif;
+    background: linear-gradient(90deg, #060afb, #06fba1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.d-none{
+    display: none;
+}
